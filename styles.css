@@ -21,16 +21,6 @@ button {
     border: none;
 }
 
-@media screen and (max-width: 500px) {
-    .links {
-        flex-direction: column;
-    }
-
-    button {
-        width: 300px;
-    }
-}
-
 .navi {
     display: flex;
     justify-content: center;
@@ -108,4 +98,23 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .main-header {
+        background-color: #7c8000;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .links {
+        flex-direction: column;
+    }
+
+    button {
+        width: 300px;
+    }
 }
